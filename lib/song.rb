@@ -24,7 +24,6 @@ class Song
   end
 
   self.column_names.each do |col_name|
-    binding.pry
     attr_accessor col_name.to_sym
   end
 
